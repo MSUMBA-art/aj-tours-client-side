@@ -2,6 +2,8 @@ const express = require("express");
 
 const app = express();
 
+const dbConfig = require("./db")
+
 const port = 5000;
 const state = "is running";
 const package = "nodemon";
